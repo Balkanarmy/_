@@ -4,13 +4,13 @@
   <title>Balkan Army</title>
   <style>
     body {
-      background-color: #000;
+      background-color: #222;
       font-family: Arial, sans-serif;
       color: #fff;
     }
     
     header {
-      background-color: #222;
+      background-color: #ff8c00;
       padding: 20px;
       text-align: center;
     }
@@ -21,7 +21,7 @@
     }
     
     nav {
-      background-color: #333;
+      background-color: #ff8c00;
       padding: 10px;
       text-align: center;
     }
@@ -39,11 +39,21 @@
     }
     
     footer {
-      background-color: #222;
+      background-color: #ff8c00;
       padding: 20px;
       text-align: center;
       color: #aaa;
       font-size: 14px;
+    }
+    
+    .game {
+      margin-bottom: 20px;
+    }
+    
+    .game img {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 10px;
     }
   </style>
 </head>
@@ -53,15 +63,30 @@
   </header>
   
   <nav>
-    <a href="#">Minecraft</a>
-    <a href="#">GTA</a>
-    <a href="#">Roblox</a>
+    <a href="#minecraft">Minecraft</a>
+    <a href="#gta">GTA</a>
+    <a href="#franker">Franker.io</a>
   </nav>
   
-  <section>
-    <h2>Dobrodošli u Balkan Army</h2>
-    <p>Uživajte u kombinaciji Minecraft, GTA i Roblox svijeta na našem serveru.</p>
-    <p>Pridružite se igračima iz cijelog Balkana i zajedno osvajajte virtualne svjetove.</p>
+  <section id="minecraft" class="game">
+    <h2>Minecraft</h2>
+    <img src="minecraft.jpg" alt="Minecraft">
+    <p>Minecraft je popularna sandbox igra koja vam omogućuje da gradite i istražujete vlastiti virtualni svijet. Ova igra nudi neograničene mogućnosti kreativnosti i avanture.</p>
+    <p><a href="https://www.minecraft.net/">Više o Minecraftu</a></p>
+  </section>
+  
+  <section id="gta" class="game">
+    <h2>GTA</h2>
+    <img src="gta.jpg" alt="GTA">
+    <p>GTA (Grand Theft Auto) je popularna igra otvorenog svijeta koja vam omogućuje da se upustite u razne kriminalne aktivnosti, istražujete gradove i sudjelujete u misijama. Ova igra je poznata po svojoj akciji i slobodi djelovanja.</p>
+    <p><a href="https://www.rockstargames.com/">Više o GTA igrama</a></p>
+  </section>
+  
+  <section id="franker" class="game">
+    <h2>Franker.io</h2>
+    <img src="franker.jpg" alt="Franker.io">
+    <p>Franker.io je zabavna i ovisna multiplayer igra u kojoj kontrolirate slatkog psa koji mora sakupiti kosti i boriti se protiv drugih igrača. Uđite u akciju, otključajte nove vještine i postanite najbolji na serveru.</p>
+    <p><a href="https://www.franker.io/">Više o Franker.io</a></p>
   </section>
   
   <footer>
